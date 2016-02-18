@@ -4,9 +4,14 @@
 
     if (document.getElementById("aboutme") != null) {
         console.log("About Page");
-    } else if (document.getElementById("project") != null) {
+    } 
+    else if (document.getElementById("project") != null) {
         console.log("Project Page");
-    } else if (document.getElementById("contactme") != null) {
+    } 
+    else if (document.getElementById("index") != null) {
+        console.log("Index Page");
+     }
+    else if (document.getElementById("contactme") != null) {
         console.log("Contact Page");
         //declare variables and create a reference to form elements
         var name = document.getElementById("name");
