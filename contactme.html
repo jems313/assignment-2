@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, height=device-height">
+    <title>Assignment 2 - Mini Portfolio – Contact Page Update</title>
+    <!-- CSS Section -->
+    <link rel="stylesheet" href="Content/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Content/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="Content/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Content/css/main.css">
+</head>
+
+<body>
+    <div>
+        <div class="logo">
+            <a href="index.html"><img src="image/logo.jpg" alt="Logo"></a>
+        </div>
+        <pre>Email Id : jayminpatel_2@yhaoo.com 																                     Cell Number:&nbsp;&nbsp;(416) 525-4367</pre>
+    </div>
+    <header class="col-12">
+        <!-- Main Navigation -->
+        <nav class="drop">
+            <ul class="drop_menu">
+                <li class="active"><a href="index.html"><i class="fa fa-home"></i>Home</a>
+                    <li><a href="aboutme.html">About Me</a>
+                        <li><a href="project.html">My Projects</a>
+                            <li><a href="contactme.html">Contact Me</a>
+            </ul>
+        </nav>
+    </header>
+    <div class="container testBorder">
+        <div class="wrapper testBorder col-11">
+            <main class="testBorder content col-6 inline-block">
+                <h3>Contact Form</h3>
+                <form action="aboutme.html" onsubmit="return validateForm()" id="contact" name="contact" method="get">
+                    <pre>
+			Name:		<input type="text" id="name" name="name" placeholder="Enter Your Name"/><br/>
+			Email Address:	<input type="text" id="email" name="email" placeholder="Enter Your E-Mail Address"/><br/>
+			Contact Number:<input type="tel" id="mobile" name="mobile" placeholder="(000)-000-0000"/><br/>
+			Query:	<textarea name="message" rows="12" id="message" placeholder="Enter Query, Feedback, Comments"></textarea><br/>
+			<input type="hidden" name="date"/><br/><br/>
+			<input type="submit" name="submit" value="Submit" id="submit">
+            <br/></pre>
+            </form>
+
+            </main>
+            <aside class="content testBorder col-4 inline-block push-half">
+                <h3>Contact Me</h3>
+                <div id="contact1">
+                    <b>Address</b>
+                    <pre>
+		<b>JaYmIn PaTeL</b><br>
+		321-Zoo Park Road,<br>
+		Wasaga Beach,<br>
+		ON L9Z 1S7, Canada
+		</pre>
+                    <b>Contact Information</b>
+                    <pre>
+		(001) 416-525-4367<br>
+		jayminpatel_2@yhaoo.com
+		</pre>
+                </div>
+            </aside>
+        </div>
+    </div>
+    <br/>
+    <br/>
+    <footer class="content">
+            <pre>
+&copy; 2016 Jaymin Patel                                                                                                                                                             <a href="https://www.facebook.com/jayminpatel31" target="_blank"><img src="image/facebook.png" alt="Facebook"></a> <a href="https://twitter.com/jayminpatel_2" target="_blank"><img src="image/twitter.png" alt="Twitter"></a> <a href="https://www.linkedin.com/in/jaymin-patel-4017aba8" target="_blank"><img src="image/linkedin.png" alt="LinkedIn"></a> <a href="https://plus.google.com/+JayminPatel31/posts" target="_blank"><img src="image/gplus.png" alt="Google++"></a>
+		    </pre>
+            </footer>
+    </main>
+    <!-- JavaScript Section -->
+    <script src="Scripts/lib/jquery-2.2.0.min.js"></script>
+    <script src="Scripts/lib/bootstrap.min.js"></script>
+    <script src="Scripts/main.js"></script>
+</body>
+
+</html>

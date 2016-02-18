@@ -1,0 +1,172 @@
+/*CSS code for Porject*/
+
+/*BODY*/
+body {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 21px;
+	line-height: 1.1em;
+    background:lightyellow;
+}
+
+section.about img{
+    border-radius: 5px 60px 70px;
+    padding: 20px; 
+    width: 400px;
+    height: 300px; 
+}
+/*DIV*/
+div.about{
+	border: 3px groove blue;
+	font-size:20px;
+	background-color:lightgreen;
+	font-weight:bold;
+	color:brown;
+	margin:2px;
+	padding:13px;
+}
+div.logo img{
+	height:70px;
+    width: 70px;
+}
+div.row p{
+	text-align:center;
+	font-size:27px;
+	color:red;
+}
+/*PRE*/
+pre{
+	font-family: Verdana;
+	color:brown;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: bold;
+}
+h1 {
+	font-size: 2.2em;
+	line-height: 2.7em;
+}
+h2 {
+	font-size: 2em;
+	line-height: 2.5em;
+}
+h3 {
+	font-size: 1.5em;
+	line-height: 2em;
+}
+h4 {
+	font-size: 1em;
+	line-height: 1.5em;
+}
+h5 {
+	font-size: 1em;
+	line-height: 1em;
+	color:brown;
+}
+h6 {
+	font-size: 0.6em;
+	line-height: 0.8em;
+}
+
+
+/* layout styles for column widths */
+.col-1 {
+	width: 8.33%;
+}
+.col-2 {
+	width: 16.66%;
+}
+.col-3 {
+	width: 25%;
+}
+.col-4 {
+	width: 38.98%
+}
+.col-5 {
+	width: 41.66%;
+}
+.col-6 {
+	width: 50%;
+}
+.col-7 {
+	width: 58.33%;
+}
+.col-8 {
+	width: 66.66%;
+}
+.col-9 {
+	width: 75%;
+}
+.col-10 {
+	width: 83.33%;
+}
+.col-11 {
+	width: 91.66%;
+}
+.col-12 {
+	width: 100%;
+}
+.testBorder {
+	border: 1px dotted blue;
+}
+.wrapper {
+	margin: 0 auto;
+}
+.inline-block {
+	display: inline-block;
+}
+.push-half {
+	margin-left: 4.16%;
+}
+.push-1 {
+	margin-left: 8.33%;
+}
+.push-2 {
+	margin-left: 16.66%;
+}
+.container {
+	margin: 2%;
+	padding: 2%;
+	min-height: 60vh;
+	overflow: auto
+}
+.content {
+	padding: 1.5%;
+	height: 100%;
+	overflow: auto;
+	vertical-align: top;
+}
+
+/*DROP MENU*/
+.drop_menu {
+	background:black;
+	padding:12;
+    font-size: 22px;
+	margin:0;
+	list-style-type:none;
+	height:50px;
+}
+.drop_menu li { float:left; }
+.drop_menu li a {
+	padding:9px 20px;
+	display:block;
+	color:white;
+	text-decoration:none;
+}
+.drop_menu li:hover { 
+    position:relative; 
+    background:#5FD367; 
+    }
+
+
+/*FOOTER*/
+footer{
+	border-top-style: solid;
+	border-top-color:red;
+}
+
+footer.content img{
+	height:25px;
+	width:25px;
+}
+
