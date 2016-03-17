@@ -38,8 +38,7 @@
 
 function replaceMyInfo() {
     var myself;
-    myself = document.getElementById("myself");
-    myself.innerHTML = "I am JaYmIn PaTeL, an International Student came from India, my hobbies are watch T-20 Cricket Match, Surffing Internat, in india  i completed M.C.A(Master of Computer Application)";
+    myself = document.getElementById("myself").innerHTML="I am JaYmIn PaTeL, an International Student came from India, my hobbies are watch T-20 Cricket Match, Surffing Internat, in india  i completed M.C.A(Master of Computer Application)";
 };
 replaceMyInfo()
 
